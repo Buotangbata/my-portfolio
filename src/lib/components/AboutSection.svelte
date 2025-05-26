@@ -1,6 +1,5 @@
 <script lang="ts">
-    import SectionHeader from "./SectionHeader.svelte";
-    import Button from "./Button.svelte";
+    import {SectionHeader, Button, ExperienceTable} from "$components";
     import image from "$assets/profile_pic.png";
     import { goto } from "$app/navigation";
 
@@ -20,7 +19,7 @@
             <Button className="mt-m" {onclick} >Parlami del tuo progetto</Button>
         </div>
     </div>
-   
+    <ExperienceTable/>
 </section>
 
 <style>
