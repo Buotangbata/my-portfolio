@@ -3,6 +3,8 @@
     import image from "$assets/profile_pic.png";
     import { goto } from "$app/navigation";
 
+    let {workExperience} = $props();
+
     function onclick(){
         goto("/#contact-form");
     }

@@ -71,7 +71,7 @@
     }
     .company-and-date{
         display: flex;
-        justify-content: space-between;
+        justify-content: space-betweenx;
     }
 
     .headline{
